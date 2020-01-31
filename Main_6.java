@@ -41,7 +41,7 @@ class Gear {
 		return this.ratio() * wheel.diameter();
 	}
 }
-class Main_5 {
+class Main_6 {
 	public static void main(String[] args) {
 		Wheel wheel = new Wheel(26,1.5);
 		Gear gear = new Gear(52,11,wheel);
